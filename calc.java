@@ -15,9 +15,11 @@ public class AddTwoNumbers {
 
         // Calculate the sum of the two numbers
         double sum = firstNumber + secondNumber;
+        double multi=firstNumber + secondNumber;
 
         // Display the result
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
+         System.out.println("The multi of " + firstNumber + " and " + secondNumber + " is: " + multi);
 
         // Close the scanner
         scanner.close();
